@@ -110,7 +110,7 @@ window.analyticsData = {
 
 CHAVE | TIPO | DESCRIÇÃO      |
 ------- | ---------------- | ---------- |
-visitor.vantagens  | string | Vantagens selecionada concatenada por ```:```
+visitor.vantagens  | string | Vantagens selecionadas concatenadas por ```:```
  
 ### Passos 2-6
 
