@@ -5,7 +5,7 @@
 
 Última atualização: 17/10/2017
 
-Em caso de dúvidas, entrar em contato com: [psandri@ciandt.com](mailto:psandri@ciandt.com)
+
 
 # Objetivo
 
