@@ -1,6 +1,7 @@
 ![CI&T](https://pablosandri.github.io/sandbox/ciandt.png)
 
-# Goal 
+# CI&T - Goal 
+
 Última atualização: 19/12/2017
 
 Em caso de dúvidas, entrar em contato com: [psandri@ciandt.com](mailto:psandri@ciandt.com)
@@ -103,16 +104,18 @@ Para cada tela da aplicação, é necessário enviar um push no dataLayer inform
 
 
 ```javascript
-window.dataLayer = window.dataLayer || [];
-dataLayer.push({
-  'event': 'virtual-pageview', //constant
-  'pageViewName': '[Nome da página]',
-  'dimension1' : '[[GOAL Role]]',
-  'dimension2' : '[[Chart Legend Item Click]]',
-  'dimension3' : '[[userId]]',
-  'dimension4' : '[[GOAL Project]]',
-  'dimension5' : '[[GOAL Company]]',
-})
+<script>
+	window.dataLayer = window.dataLayer || [];
+	dataLayer.push({
+	  'event': 'virtual-pageview', //constant
+	  'pageViewName': '[Nome da página]',
+	  'dimension1' : '[[GOAL Role]]',
+	  'dimension2' : '[[Chart Legend Item Click]]',
+	  'dimension3' : '[[userId]]',
+	  'dimension4' : '[[GOAL Project]]',
+	  'dimension5' : '[[GOAL Company]]',
+	})
+</script>
 ```
 
 ### Login
@@ -150,30 +153,7 @@ Descrição: Disparar as informações no dataLayer no callback da função de l
 
 <br />
 
-
-## Especificação Global:
-
-- **Dimensões Customizadas: Goal** <br /> 
-
-Quando for necessario enviar dimensões customizadas.
-
-```html
-<script>
-  window.dataLayer = window.dataLayer || [];
-  dataLayer.push({
-    'dimension1' : '[[GOAL Role]]',
-    'dimension2' : '[[Chart Legend Item Click]]',
-    'dimension3' : '[[userId]]',
-    'dimension4' : '[[GOAL Project]]',
-    'dimension5' : '[[GOAL Company]]',
-  });
-</script>
-```
-
-
-<br />
-
-- **Micro-Conversões**: Botões <br />
+- **Micro-Conversões**: Botões
 
 No momento em que o usuário utilizar os botões do site disparar o seguinte push na camada de dados quando for clicado.
 
