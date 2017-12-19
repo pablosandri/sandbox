@@ -107,7 +107,7 @@ Para cada tela da aplicação, é necessário enviar um push no dataLayer inform
 <script>
 	window.dataLayer = window.dataLayer || [];
 	dataLayer.push({
-	  'event': 'virtual-pageview', //constant
+	  'event': 'virtual-pageview', //fixo
 	  'pageViewName': '[Nome da página]',
 	  'dimension1' : '[[GOAL Role]]',
 	  'dimension2' : '[[Chart Legend Item Click]]',
@@ -184,7 +184,3 @@ OU mapear os elementos HTML com Data Attributes.
   data-gtm-event-label="exemplo valor rotulo">Texto do elemento</div>
 ```
 
-
-| Dimensão | Variável | Exemplo | Descrição |
-| :--------- | :--------------- | :------------------- | :---- |
-| eventLabel | [[Texto buscado]] | sensor-de-estacionamento | texto que o usuário digitou no campo para realizar a busca |
