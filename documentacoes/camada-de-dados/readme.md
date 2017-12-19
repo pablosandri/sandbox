@@ -58,6 +58,7 @@ Inserir a camada de dados antes do snippet de instalação do Google Tag Manager
 São atributos customizados inseridos nos elementos HTML da página que permite a inclusão de dados adicionais.
 
 - Instalação
+
 1. Elementos de link: ```<a href="..." class="minha_classe">Link</a>```
 
 Elementos do tipo link que foram mapeados, precisam receber a classe **gtm-link-event** e os data attributes em sua estrutura.
