@@ -10,6 +10,7 @@ Em caso de dúvidas, entrar em contato com: [psandri@ciandt.com](mailto:psandri@
 Este documento tem como objetivo documentar a implementação do Google Tag Manager e camada de dados para utilização de recursos de monitoramento do Google Analytics.
 
 # Overview e Descrições Técnicas
+
 ## Google Tag Manager <br /> 
 É uma ferramenta da Google onde são inseridas pequenas instruções javascript com a finalidade de estruturar a coleta dados e unificar diversos fornecedores de tags terceiros sem a necessidade de várias implementações complexas de hardcode do projeto. 
 
@@ -132,17 +133,12 @@ Descrição: Disparar as informações no dataLayer no callback da função de l
     'userId': '[D14555]',
     'eventCategory': 'login', // fixo
     'eventAction': 'sucesso', // fixo
-    'eventLabel': '[tipo=facebooklogin ou tipo=usersenha]'
+    'eventLabel': 'logon' //fixo
   });
 ```
 
-| CHAVE | TIPO | DESCRIÇÃO |
-| :---- | :--: | :-------- |
-| userId | string | Identificador único do usuário |
-| eventLabel | string | Como o usuário fez login, valor esperado `tipo=facebooklogin` ou `tipo=usersenha`  |
+### Logout
 
-
-#### Logout
 Descrição: Disparar as informações no dataLayer no callback da função de logout em caso de sucesso.
 
 ```javascript
@@ -154,9 +150,11 @@ Descrição: Disparar as informações no dataLayer no callback da função de l
 
 <br />
 
+## Eventos
+
 - **Micro-Conversões**: Botões
 
-No momento em que o usuário utilizar os botões do site disparar o seguinte push na camada de dados quando for clicado.
+Quando o usuário interagir com algum elemento da página.
 
 ```javascript
 window.dataLayer = window.dataLayer || [];
