@@ -1,4 +1,4 @@
-![CI&T](http://lucida-brasil.github.io/public/Images/zoly-logo.png)
+![CI&T](https://pablosandri.github.io/sandbox/ciandt.png)
 
 # Goal 
 Última atualização: 19/12/2017
