@@ -97,9 +97,9 @@ São estruturas de dados que muitas vezes são consideradas como conversões ou 
 
 Para cada tela da aplicação, é necessário enviar um push no dataLayer informando que a página carregou.
 
-	> **Observação**
-	>É importante carregar em todas as páginas e nas trocas via ajax.
-	> Todos os valores enviados ao Google Analytics devem estar sanitizados, ou seja, sem espaços, acentuação ou caracteres especiais.
+> **Observação**
+> É importante carregar em todas as páginas e nas trocas via ajax.
+> Todos os valores enviados ao Google Analytics devem estar sanitizados, ou seja, sem espaços, acentuação ou caracteres especiais.
 
 
 ```javascript
