@@ -34,6 +34,7 @@ var s=s_gi('teste')							//Declarando o Report Suite
 ```
 
 Por fim podemos iniciar os testes, declare sua string no `s.products` conforme ilustrado abaixo:
+>	Obs:Caso queira enviar outras informações como event, prop e evar consulte essa [documentação]()
 
 ```javascript
 s.products = 'Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off'
@@ -43,8 +44,4 @@ Caso queira definir mais alguma informação para testar, como Prop, eVar e even
 
 Agora podemos escolher como vamos enviar esse disparo para adobe.
 
-FUNCTION | DESCRIÇÃO
-------- | ---------------- 
-s.t()  | Atribui pageviews
-s.tl()  | Não atribui pageviews     
 
