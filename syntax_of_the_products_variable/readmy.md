@@ -33,7 +33,10 @@ var s_account="itau.d2.sc.omtrdc.net"       //Declarando o Tracking Server
 var s=s_gi('teste')			    //Declarando o Report Suite
 ```
 
-Por fim podemos iniciar os testes, declare sua string no `s.products` conforme ilustrado abaixo:
+## Envio das váriaveis 
+
+Declare sua string da products no `s.products` conforme ilustrado abaixo:
+
 >	Obs: Caso queira enviar outras informações como event, prop e evar consulte essa [documentação]()
 
 ```javascript
@@ -41,10 +44,11 @@ s.products = 'Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Grou
 
 s.tl()    // Compila todas as variáveis definidas e envia para adobe
 ```
+Pronto, o disparo foi enviado para adobe.
 
-Pronto, você já disparou todas informações para adobe, agora vamos homologar se o disparo da product está correto.
+## Homologação
 
-Se você estiver com o *adobe debugger* no favorito é só executar, ou execute o seguinte codigo no console.
+Por fim se você estiver com o *adobe debugger* no favorito é só executar, ou execute o seguinte codigo no console.
 
 ```javascript
 javascript:void(window.open("","dp_debugger","width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language='JavaScript' id=dbg src='https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js'></"+"script>"));
