@@ -30,7 +30,7 @@ Digite no console:
 s = new AppMeasurement                      //Declarando a lib AppMeasurement no escobo global
 
 var s_account="itau.d2.sc.omtrdc.net"       //Declarando o Tracking Server
-var s=s_gi('teste')							//Declarando o Report Suite
+var s=s_gi('teste')			    //Declarando o Report Suite
 ```
 
 Por fim podemos iniciar os testes, declare sua string no `s.products` conforme ilustrado abaixo:
