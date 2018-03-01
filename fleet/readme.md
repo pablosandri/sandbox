@@ -2,7 +2,7 @@
 
 # CI&T - Fleet
 
-Última atualização: 19/12/2017
+Última atualização: 28/02/2018
 
 Em caso de dúvidas, entrar em contato com: [psandri@ciandt.com](mailto:psandri@ciandt.com)
 
