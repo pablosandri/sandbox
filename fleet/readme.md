@@ -113,8 +113,7 @@ Para cada tela da aplicação, é necessário enviar um push no dataLayer inform
 	window.dataLayer = window.dataLayer || [];
 	dataLayer.push({
 	  'event': 'virtual-pageview', //fixo
-	  'pageViewName': '[[Nome da página]]',
-    ''
+	  'pageViewName': '[[Nome da página]]'
 	})
 </script>
 ```
@@ -211,6 +210,7 @@ dataLayer.push({
   'dimension8' : '[[data e hora de devolucao]]',
 });
 ```
+
 | CHAVE    | TIPO  | DESCRIÇÃO |
 | :------- | :---- | :--- |
 | eventCategory | String | Página |
@@ -218,7 +218,7 @@ dataLayer.push({
 | dimension7 |String | Data e hora da retirada: 15/2/2018 9:00 |
 | dimension8 |String | Data e hora da devolução: 15/2/2018 9:00 |
 
-- **Micro-Conversões**: Botões
+## **Micro-Conversões**: Botões
 
 Quando o usuário interagir com algum elemento da página.
 
