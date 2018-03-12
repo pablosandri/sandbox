@@ -1,7 +1,7 @@
 
 Área - Digital Analytics
 
-# Red Venture - cartoes.itau.com.br
+
 
 Última atualização: 17/10/2017
 
@@ -9,7 +9,7 @@
 
 # Objetivo
 
-Este documento tem como objetivo instruir a atualização da camada de dados para utilização de recursos de monitoramento da Adobe Analytics.
+Este documento tem como objetivo instruir a atualização da camada de dados para utilização de recursos de monitoramento da s.
 
 # Implementação
 
@@ -22,18 +22,18 @@ Descrição: Mensuração obrigatória em todas as telas
 ```javascript 
 window.analyticsData = {
 	    site: {
-	          "nome": "IT",
-	          "ambiente": "NL",
-	          "negocio": "Itaucard",
+	          "nome": "",
+	          "ambiente": "",
+	          "negocio": "rd",
 	          "tipoDeCanal": "Web",
 	    },
 	    page: {
-	          "secao": "Cartoes",
-	          "subsecao1": "UploadDeDocumentos",
-	          "url": "itau.com.br",
-	          "nome": "IIT:NL:NCC-RV:Cartoes:Home",
-	          "templateName":"home",                                  //novo atributo
-	          "descricaoDeErro": "Erro ao enviar o formulário!"
+	          "secao": "Caes",
+	          "subsecao1": "Upls",
+	          "url": "",
+	          "nome": "IIome",
+	          "templateName":"he",                                  //novo atributo
+	          "descricaoDeErro": "Erro mulário!"
 	    },
 	    visitor: {
 	          "iDPFRV": "dsf6ad8s796sd7f896s",
@@ -54,16 +54,17 @@ Descrição: Disparar as informações no dataLayer no momento em que ocorrer al
 ```javascript 
 window.analyticsData = {
      site: {
-           "nome": "IT",
-           "ambiente": "NL",
-           "negocio": "Itaucard",
+           "nome": "",
+           "ambiente": "",
+           "negocio": "
+	   card",
            "tipoDeCanal": "Web",
      },
      page: {
-           "secao": "Cartoes",
-           "url": "cartoes.itau.com.br/sdabj",
-           "nome": "IT:NL:NCC-RV:404",                                  //atributo atualizado
-           "templateName":"erro",                                       //novo atributo
+           "secao": "Caes",
+           "url": "carsdabj",
+           "nome": "IT4",                                  //atributo atualizado
+           "templateName":"eo",                                       //novo atributo
            "descricaoDeErro": "pagina-nao-encontrada"                   //atributo atualizado
      },
      visitor: {
@@ -75,7 +76,7 @@ window.analyticsData = {
 
 CHAVE | TIPO | DESCRIÇÃO      |
 ------- | ---------------- | ---------- |
-page.nome  | string | IT:NL:NCC-RV: + erro de http
+page.nome  | string | Irro de http
 page.url  | string | window.location.href
 page.descricaoDeErro  | string | Mensagem apresentada para o usuário
 
@@ -86,22 +87,22 @@ Descrição: Na página vitrine todas as vantagens que o usuário selecionar, de
 ```javascript 
 window.analyticsData = {
 	    site: {
-	          "nome": "IT",
-	          "ambiente": "NL",
-	          "negocio": "Itaucard",
-	          "tipoDeCanal": "Web",
+	          "nome": "",
+	          "ambiente": "",
+	          "negocio": "Iard",
+	          "tipoDeCanal": "b",
 	    },
 	    page: {
-	          "secao": "Cartoes",
-	          "subsecao1": "UploadDeDocumentos",
-	          "url": "itau.com.br",
-	          "nome": "IIT:NL:NCC-RV:Cartoes:Home",
-	          "templateName":"home",                                  //novo atributo
-	          "descricaoDeErro": "Erro ao enviar o formulário!"
+	          "secao": "oes",
+	          "subsecao1": "Uploentos",
+	          "url": "br",
+	          "nome": "Ime",
+	          "templateName":"he",                                  //novo atributo
+	          "descricaoDeErro": "Erio!"
 	    },
 	    visitor: {
-	          "iDPFRV": "dsf6ad8s796sd7f896s",
-	          "vantagens": "carros:telefonia"                         //novo atributo
+	          "iDPFRV": "d6s",
+	          "vantagens": "caonia"                         //novo atributo
 	    },
 	    rule: "pageLoad"
 }
@@ -119,18 +120,18 @@ Descrição: Inserir o atributo *email* na camada de dados no passo 2 ao 6.
 ```javascript
 window.analyticsData = {
 	    site: {
-	          "nome": "IT",
-	          "ambiente": "NL",
-	          "negocio": "Itaucard",
-	          "tipoDeCanal": "Web",
+	          "nome": "",
+	          "ambiente": "",
+	          "negocio": "Id",
+	          "tipoDeCanal": "b",
 	    },
 	    page: {
-	          "secao": "Cartoes",
-	          "subsecao1": "UploadDeDocumentos",
-	          "url": "itau.com.br",
-	          "nome": "IT:NL:NCC-RV:Cartoes:Formulario-Passo1",
-	          "templateName":"home",                                   //novo atributo
-	          "descricaoDeErro": "Erro ao enviar o formulário!"
+	          "secao": "es",
+	          "subsecao1": tos",
+	          "url": "ir",
+	          "nome": "o1",
+	          "templateName":"hme",                                   //novo atributo
+	          "descricaoDeErro": "Erro ao eio!"
 	    },
 	    "custom": {
      		   "versaoDoCheckout":"v1",
@@ -139,12 +140,12 @@ window.analyticsData = {
 		},
 		"product": {
      		   "items": [{
-          	  		 "sku": "TudoAzul Itaucard 2.0 Internacional MC",
+          	  		 "sku": "T",
      			 }],
       		    "event": "prodView"
 		},
 	    visitor: {
-	          "iDPFRV": "dsf6ad8s796sd7f896s",
+	          "iDPFRV": "ds96s",
 	    },
 	    rule: "pageLoad"
 }
