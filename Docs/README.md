@@ -1,1 +1,18 @@
-### TESTE
+Serasa Empreendedor - Digital Analytics
+
+Última atualização: 14/05/2018
+
+# Objetivo
+
+Este documento tem como objetivo realizar um diagnostico da implementação do Adobe Analytics no ambiente [Serasa Empreendedor](https://www.serasaempreendedor.com.br/).
+
+# Diagnostico
+
+## Configuração e Implementação
+
+Conforme o **Guia de implementação do Adobe Analytics**, na etapa de pré-implementação, é crucial documentar as Soluções abordadas. Segue os documentos obrigatórios:
+
+#### Solution Desing: 
+Um documento de design de solução é basicamente o modelo de sua implementação de análise. Ele define os requisitos de negócios identificados pelas partes interessadas em toda a organização e os converte em variáveis no Adobe Analytics. Sem um, as organizações têm dificuldade em coordenar as necessidades de relatórios e tendem a perder a coleta de dados importantes.
+
+#### TechSpec: 
