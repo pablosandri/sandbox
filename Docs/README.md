@@ -32,7 +32,7 @@ Análise sobre nossos indicadores chaves de desempenho.
 **Cadastros:** Métrica de sucesso: Precisamos criar uma métrica calculada para conseguir a quantidade de customlink por VisitorID.
 
 
-**Acompanhamento de produtos:** Não estamos mensurando nossos produtos como recomenda a [Adobe](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/products.html), sendo assim não estamos explorando todos os recursos e ficando limitados a poucas análises.
+**Acompanhamento de produtos:** Não estamos mensurando nossos produtos como recomenda a [Adobe](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/products.html), sendo assim não estamos explorando todos os recursos e ficando limitados a análises superficiais.
 
 
 
