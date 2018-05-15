@@ -55,14 +55,14 @@ Acompanhamento de produto | eVars | Para acompanhamento de produto a adobe recom
 
 Alguns recursos do Adobe Analytics permitem usar eventos de sucesso, mas não permitem usar métricas calculadas:
 
-Funis no Relatórios e análises
-Fallout na Analysis Workspace
-Análise de coorte na Analysis Workspace
-Data warehouse
-Segmentos
-Relatórios em Tempo real
-Relatórios de Dados atuais
-Analytics para o Target
+- Funis no Relatórios e análises
+- Fallout na Analysis Workspace
+- Análise de coorte na Analysis Workspace
+- Data warehouse
+- Segmentos
+- Relatórios em Tempo real
+- Relatórios de Dados atuais
+- Analytics para o Target
 
 ### Contratação de Crédito:
 
