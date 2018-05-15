@@ -26,6 +26,20 @@ O Tech Spec é uma documentação detalhada sobre como implementar cada componen
 
 Notamos que a arquitetura de mensuração e dados da Adobe está diferente entre os ambientes [Serasa Experian](https://www.serasaexperian.com.br/) e [Serasa Empreendedor](https://www.serasaempreendedor.com.br/). Podendo gerar problemas posteriores de governança de dados e conflitos.
 
+Exemplo:
+
+X       | Serasa Experian | Serasa Empreendedor  |
+------- | ---------------- | ---------- | 
+Page Name  | ::home-serasa-experian  | home nao logada
+xxxxxx  | xxxxx  | xxxxx
+
+Como deveria ser:
+
+X       | Serasa Experian | Serasa Empreendedor  |
+------- | ---------------- | ---------- | 
+Page Name  | se:experian:home  | se:empreendedor:home
+xxxxxx  | xxxxx  | xxxxx
+
 ## KPIs
 
 Análise sobre nossos indicadores chaves de desempenho do Serasa Empreendedor.
