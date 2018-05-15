@@ -50,21 +50,21 @@ Solução de hoje:
 Passos | Server Calls | Observação      |
 ------- | ---------------- | ---------- | 
 Formulário  | 1 hit | CustomLink: EventCadastra-se
-Formulário  | 2 hit | CustomLink: CadastroInicio, e101(Cadastro | Inicio)
+Formulário  | 2 hit | CustomLink: CadastroInicio, e101(Cadastro Inicio)
 Formulário  | 3 hit | Pageview: Validar Token
 Token  | 4 hit | CustomLink: EventValidarToken
-Token  | 5 hit | CustomLink: CadastroValidarToken, e103(Cadastro | Validação Token)
+Token  | 5 hit | CustomLink: CadastroValidarToken, e103(Cadastro Validação Token)
 Senha  | 6 hit | CustomLink: CustomLink: EventSenhaDadosIniciais
-Senha  | 7 hit | CustomLink: CustomLink: Cadastro | Definicao Senha, e104(Cadastro | Definicao senha)
+Senha  | 7 hit | CustomLink: CustomLink: Cadastro | Definicao Senha, e104(Cadastro Definicao senha)
 Senha  | 8 hit | Pageview: home
 
 Solução correta:
 
 Passos | Server Calls | Observação      |
 ------- | ---------------- | ---------- | 
-Formulário  | 1 hit | Pageview: Validar Token, e101(Cadastro | Inicio), propX: IniciouCadastro
-Token  | 2 hit | CustomLink: CadastroValidarToken, e103(Cadastro | Validação Token) propX: TokenCadastro
-Senha  | 3 hit | Pageview: home, e104(Cadastro | Definicao senha), propX: RealizouCadastro
+Formulário  | 1 hit | Pageview: Validar Token, e101(Cadastro Inicio), propX: IniciouCadastro
+Token  | 2 hit | CustomLink: CadastroValidarToken, e103(Cadastro Validação Token) propX: TokenCadastro
+Senha  | 3 hit | Pageview: home, e104(Cadastro Definicao senha), propX: RealizouCadastro
 
 
 
