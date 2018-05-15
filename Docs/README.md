@@ -34,10 +34,9 @@ Page Name  | ::home-serasa-experian  | home não logada
 
 Sugestão:
 
-X       | Serasa Experian | Serasa Empreendedor  |
-------- | ---------------- | ---------- | 
-Page Name  | se:experian:home  | se:empreendedor:home
-xxxxxx  | xxxxx  | xxxxx
+X       | Serasa Experian | Serasa Empreendedor  | Construção da página
+------- | ---------------- | ---------- |  --------------
+Page Name  | SE:EXPERIAN:NL:HOME  | SE:EMPREENDEDOR:NL:HOME  |  [site]:[Ambiente]:[Logado ou deslogado]:[Página]
 
 ## KPIs
 
