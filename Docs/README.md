@@ -1,10 +1,12 @@
+
+
 Serasa Empreendedor - Digital Analytics
 
 Última atualização: 14/05/2018
 
 # Objetivo
 
-Este documento tem como objetivo realizar um diagnóstico da implementação do Adobe Analytics no ambiente [Serasa Empreendedor](https://www.serasaempreendedor.com.br/).
+Este documento tem como objetivo realizar o diagnóstico da implementação do Adobe Analytics no ambiente [Serasa Empreendedor](https://www.serasaempreendedor.com.br/).
 
 # Diagnóstico 
 
@@ -35,7 +37,7 @@ Page Name  | ::home-serasa-experian  | home não logada
 
 Sugestão:
 
-X       | Serasa Experian | Serasa Empreendedor  | Construção da página
+X       | Serasa Experian | Serasa Empreendedor  | Construção do Page Name
 ------- | ---------------- | ---------- |  --------------
 Page Name  | SE:EXPERIAN:NL:HOME  | SE:EMPREENDEDOR:NL:HOME  |  [site]:[Ambiente]:[Logado ou deslogado]:[Página]
 
@@ -43,8 +45,11 @@ Page Name  | SE:EXPERIAN:NL:HOME  | SE:EMPREENDEDOR:NL:HOME  |  [site]:[Ambiente
 
 Análise sobre nossos indicadores chaves de desempenho do Serasa Empreendedor.
 
-KPI | Server Calls | Observação      |
+KPI | Variável Adobe | Observação |
 ------- | ---------------- | ---------- | 
+Cadastro  | Métricas calculadas | Não é recomendado popular leads com métricas calculadas.
+Lead Crédito  | Métricas calculadas | Não é recomendado popular leads com métricas calculadas.
+Acompanhamento de produto | eVars | Para acompanhamento de produto a adobe recomenda [Merchandising Variable](https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising_impl.html)
 
 ### Contratação de Crédito:
 
@@ -59,12 +64,12 @@ Solução Presente: Todos os steps dos cadastros são mensurados por customLink 
 Obs: Existe eventos de sucesso, mas não estão serializados.
 ### Acompanhamento de produtos:
 
-Solução Presente: Atualmente não estamos mensurando nossos produtos como recomenda a [Adobe](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/products.html) recomenda, sendo assim não conseguimos explorar todos os recursos como montante monetário, prodImpressions, prodView e etc. Ficando limitados às análises superficiais.
+Solução Presente: Atualmente não estamos mensurando nossos produtos como recomenda a [Adobe](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/products.html), sendo assim não conseguimos explorar todos os recursos como montante monetário, prodImpressions, prodView e etc. Ficando limitados às análises superficiais.
 
 ## Server Calls
 
-Server Calls são os hits com informções enviadas a Adobe para processamento, esses hits são cobrados individualmente, portanto devem ser usados com responsabilidade.
-No Serasa Empreendedor existem muitos disparos redundantes que poderiam ser enviados na mesma solicitação, qual gostariamos de entender o motivo. Segue exemplo:
+Server Calls são os hits com informções enviadas a Adobe para processamento, esses hits são custiados individualmente, portanto devem ser usados com cuidado.
+No Serasa Empreendedor existem muitos disparos redundantes que poderiam enviar todas informações na mesma solicitação, qual gostariamos de entender o motivo. Segue exemplo:
 
 Fluxo de cadastro de usuarios(simples):
 
@@ -88,6 +93,3 @@ Passos | Server Calls | Observação      |
 Formulário  | 1 hit | Pageview: Validar Token, e101(Cadastro Inicio), propX: IniciouCadastro
 Token  | 2 hit | CustomLink: CadastroValidarToken, e103(Cadastro Validação Token) propX: TokenCadastro
 Senha  | 3 hit | Pageview: home, e104(Cadastro Definicao senha), propX: RealizouCadastro
-
-
-
