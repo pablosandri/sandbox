@@ -10,7 +10,7 @@ Este documento tem como objetivo realizar um diagnóstico da implementação do 
 
 ## Configuração e Implementação
 
-Conforme o [**Guia de implementação do Adobe Analytics**](https://helpx.adobe.com/analytics/kb/analytics-standard-implementation-guide.html), na etapa de pré-implementação é crucial documentar as soluções desenvolvidas para o ambiente. Sem isso as organizações tem dificuldade em gerir uma governancça de dados e atender as necessidades de relatórios e tendem a perder coleta de dados importantes.
+Conforme o [**Guia de implementação do Adobe Analytics**](https://helpx.adobe.com/analytics/kb/analytics-standard-implementation-guide.html), na etapa de pré-implementação é crucial documentar as soluções desenvolvidas para o ambiente. Sem isso as organizações tem dificuldade em gerir uma governança de dados e atender as necessidades de relatórios e tendem a perder coleta de dados importantes.
 
 Documentos obrigatórios para implementação e controle:
 
@@ -24,7 +24,7 @@ O Tech Spec é uma documentação detalhada sobre como implementar cada componen
 
 ## Padrões
 
-Notamos que a arquitetura de mensuração e dados da Adobe está diferente entre os ambientes [Serasa Experian](https://www.serasaexperian.com.br/) e [Serasa Empreendedor](https://www.serasaempreendedor.com.br/). Podendo gerar problemas posteriores de governancça de dados e conflitos.
+Notamos que a arquitetura de mensuração e dados da Adobe está diferente entre os ambientes [Serasa Experian](https://www.serasaexperian.com.br/) e [Serasa Empreendedor](https://www.serasaempreendedor.com.br/). Podendo gerar problemas posteriores de governança de dados e conflitos.
 
 ## KPIs
 
