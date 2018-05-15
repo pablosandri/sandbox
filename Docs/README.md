@@ -32,6 +32,7 @@ X       | Serasa Experian | Serasa Empreendedor  |
 ------- | ---------------- | ---------- | 
 Page Name  | ::home-serasa-experian  | home não logada
 
+
 Sugestão:
 
 X       | Serasa Experian | Serasa Empreendedor  | Construção da página
@@ -42,13 +43,23 @@ Page Name  | SE:EXPERIAN:NL:HOME  | SE:EMPREENDEDOR:NL:HOME  |  [site]:[Ambiente
 
 Análise sobre nossos indicadores chaves de desempenho do Serasa Empreendedor.
 
-**Contratação de Crédito:** Todos os steps da contratação são mensurados por customLink e para calcular o total de Leads foi preciso criar uma métrica calculada para conseguir a quantidade de customlink por VisitorID.
+KPI | Server Calls | Observação      |
+------- | ---------------- | ---------- | 
 
-**Cadastros:** Precisamos criar uma métrica calculada para conseguir a quantidade de customlink por VisitorID.
-Obs:
+### Contratação de Crédito:
 
-**Acompanhamento de produtos:** Atualmente não estamos mensurando nossos produtos como recomenda a [Adobe](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/products.html), sendo assim não conseguimos explorar todos os recursos, ficando limitados às análises superficiais.
+Solução Presente: Todos os steps da contratação são mensurados por customLink e para calcular o total dos Leads foi preciso criar uma ```métrica calculada``` para conseguir a quantidade de customlink por VisitorID.
 
+Obs: Existe eventos de sucesso, mas não estão serializados.
+
+### Cadastros:
+
+Solução Presente: Todos os steps dos cadastros são mensurados por customLink e para calcular o total dos Leads foi preciso criar uma ```métrica calculada``` para conseguir a quantidade de customlink por VisitorID.
+
+Obs: Existe eventos de sucesso, mas não estão serializados.
+### Acompanhamento de produtos:
+
+Solução Presente: Atualmente não estamos mensurando nossos produtos como recomenda a [Adobe](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/products.html) recomenda, sendo assim não conseguimos explorar todos os recursos como montante monetário, prodImpressions, prodView e etc. Ficando limitados às análises superficiais.
 
 ## Server Calls
 
@@ -57,7 +68,7 @@ No Serasa Empreendedor existem muitos disparos redundantes que poderiam ser envi
 
 Fluxo de cadastro de usuarios(simples):
 
-Solução 
+Solução presente: 
 
 Passos | Server Calls | Observação      |
 ------- | ---------------- | ---------- | 
@@ -70,7 +81,7 @@ Senha  | 6 hit | CustomLink: CustomLink: EventSenhaDadosIniciais
 Senha  | 7 hit | CustomLink: CustomLink: Cadastro | Definicao Senha, e104(Cadastro Definicao senha)
 Senha  | 8 hit | Pageview: home
 
-Solução recomendada:
+Sugestão:
 
 Passos | Server Calls | Observação      |
 ------- | ---------------- | ---------- | 
