@@ -1,4 +1,4 @@
-![Serasa Empreendedor](https://pablosandri.github.io/sandbox/empreendedor.png)
+![Serasa Empreendedor](https://pablosandri.github.io/sandbox/empreendedor.jpg)
 
 # Serasa Empreendedor - Digital Analytics
 
