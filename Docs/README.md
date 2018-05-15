@@ -2,7 +2,7 @@
 
 # Serasa Empreendedor - Digital Analytics
 
-Última atualização: 14/05/2018
+Última atualização: 15/05/2018
 
 # Objetivo
 
@@ -43,13 +43,26 @@ Page Name  | SE:EXPERIAN:NL:HOME  | SE:EMPREENDEDOR:NL:HOME  |  [site]:[Ambiente
 
 ## KPIs
 
-Análise sobre nossos indicadores chaves de desempenho do Serasa Empreendedor.
+Análise sobre alguns de nossos indicadores chaves de desempenho do Serasa Empreendedor.
 
 KPI | Variável Adobe | Observação |
 ------- | ---------------- | ---------- | 
 Cadastro  | Métricas calculadas | Não é recomendado popular leads com métricas calculadas.
 Lead Crédito  | Métricas calculadas | Não é recomendado popular leads com métricas calculadas.
 Acompanhamento de produto | eVars | Para acompanhamento de produto a adobe recomenda [Merchandising Variable](https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising_impl.html)
+
+**Limitações das Métricas Calculadas**
+
+Alguns recursos do Adobe Analytics permitem usar eventos de sucesso, mas não permitem usar métricas calculadas:
+
+Funis no Relatórios e análises
+Fallout na Analysis Workspace
+Análise de coorte na Analysis Workspace
+Data warehouse
+Segmentos
+Relatórios em Tempo real
+Relatórios de Dados atuais
+Analytics para o Target
 
 ### Contratação de Crédito:
 
