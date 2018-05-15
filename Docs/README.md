@@ -40,6 +40,10 @@ Obs:
 
 ### Server Calls
 
+Server Calls são os hits com informções enviadas a Adobe para processamento, esses hits são cobrados individualmente, portanto deve ser usado com responsabilidade.
+No Serasa Empreendedor existem muitos disparos redundantes que poderiam ser enviados na mesma solicitação.
+
+Fluxo de cadastro de um novo usuário:
 
 
 
