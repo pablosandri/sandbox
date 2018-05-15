@@ -12,7 +12,7 @@ Este documento tem como objetivo realizar um diagnostico da implementação do A
 
 Conforme o [**Guia de implementação do Adobe Analytics**](https://helpx.adobe.com/analytics/kb/analytics-standard-implementation-guide.html), na etapa de pré-implementação, é crucial documentar as soluções desenvolvida para o ambiente. Sem um, as organizações têm dificuldade em gerir uma governancia de dados e atender as necessidades de relatórios e tendem a perder a coleta de dados importantes.
 
-Documentos obrigatorios para governancia:
+Documentos obrigatorios para implementação e controle:
 
 ### Solution Desing: 
 Documento de design de solução, é basicamente o modelo de sua implementação de análise. Ele define os requisitos de negócios identificados pelas partes interessadas em toda a organização e os converte em variáveis no Adobe Analytics, delegando padrões de dados, nomenclatura etc.
@@ -24,17 +24,16 @@ O Tech Spec é uma documentação detalhada sobre como implementar cada componen
 
 ## Padrões
 
-Notamos que a arquitetura de mensuração da Adobe está diferente entre os ambientes [Serasa Experian](https://www.serasaexperian.com.br/) e [Serasa Empreendedor](https://www.serasaempreendedor.com.br/). Podendo podendo gerar problemas posteriores de governancia de dados.
+Notamos que a arquitetura de mensuração e dados da Adobe está diferente entre os ambientes [Serasa Experian](https://www.serasaexperian.com.br/) e [Serasa Empreendedor](https://www.serasaempreendedor.com.br/). Podendo gerar problemas posteriores de governancia de dados e conflitos.
 
 ## KPIs
 
 Análise sobre nossos indicadores chaves de desempenho do Serasa Empreendedor.
 
-**Contratação de Crédito:** Todos os steps da contratação são mensurados por customLink e para calcular o total de Leads foi preciso criar uma métrica calculada para conseguir a quantidade de customlink por VisitorID. Qual mótivo dessa arquitetura?
+**Contratação de Crédito:** Todos os steps da contratação são mensurados por customLink  e para calcular o total de Leads foi preciso criar uma métrica calculada para conseguir a quantidade de customlink por VisitorID.
 
 **Cadastros:** Precisamos criar uma métrica calculada para conseguir a quantidade de customlink por VisitorID.
 Obs:
-
 
 **Acompanhamento de produtos:** Não estamos mensurando nossos produtos como recomenda a [Adobe](https://marketing.adobe.com/resources/help/pt_BR/sc/implement/products.html), sendo assim não conseguimos explorando todos os recursos e ficando limitados a análises superficiais.
 
