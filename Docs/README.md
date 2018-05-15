@@ -6,7 +6,7 @@ Serasa Empreendedor - Digital Analytics
 
 Este documento tem como objetivo realizar um diagnóstico da implementação do Adobe Analytics no ambiente [Serasa Empreendedor](https://www.serasaempreendedor.com.br/).
 
-# Diagnóstico
+# Diagnóstico 
 
 ## Configuração e Implementação
 
@@ -31,7 +31,6 @@ Exemplo:
 X       | Serasa Experian | Serasa Empreendedor  |
 ------- | ---------------- | ---------- | 
 Page Name  | ::home-serasa-experian  | home nao logada
-xxxxxx  | xxxxx  | xxxxx
 
 Como deveria ser:
 
@@ -55,11 +54,11 @@ Obs:
 ## Server Calls
 
 Server Calls são os hits com informções enviadas a Adobe para processamento, esses hits são cobrados individualmente, portanto deve ser usado com responsabilidade.
-No Serasa Empreendedor existem muitos disparos redundantes que poderiam ser enviados na mesma solicitação.
+No Serasa Empreendedor existem muitos disparos redundantes que poderiam ser enviados na mesma solicitação. Também gostariamos de entender o motivo. Segue exemplo:
 
-Um exemplo disso é o nosso fluxo de cadastro:
+Fluxo de cadastro de usuarios(simples):
 
-Solução de hoje:
+Solução 
 
 Passos | Server Calls | Observação      |
 ------- | ---------------- | ---------- | 
@@ -72,7 +71,7 @@ Senha  | 6 hit | CustomLink: CustomLink: EventSenhaDadosIniciais
 Senha  | 7 hit | CustomLink: CustomLink: Cadastro | Definicao Senha, e104(Cadastro Definicao senha)
 Senha  | 8 hit | Pageview: home
 
-Solução correta:
+Solução recomendada:
 
 Passos | Server Calls | Observação      |
 ------- | ---------------- | ---------- | 
