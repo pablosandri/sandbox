@@ -4,6 +4,16 @@
 
 Última atualização: 15/05/2018
 
+## Índice
+- [Objetivo](#objetivo)
+- [Diagnóstico](#diagnóstico)
+    - [Configuração e Implementação](#configuração-e-implementação)
+      - [Solution Design](#solution-design)
+      - [TechSpec](#techspec)
+  - [Padrões](#padrões)
+  - [KPIs](#kpis)
+  - [Server Calls](#server-calls)
+ 
 # Objetivo
 
 Este documento tem como objetivo realizar o diagnóstico da implementação do Adobe Analytics no ambiente [Serasa Empreendedor](https://www.serasaempreendedor.com.br/).
@@ -16,7 +26,7 @@ Conforme o [**Guia de implementação do Adobe Analytics**](https://helpx.adobe.
 
 Documentos obrigatórios para implementação e controle (quais foram solicitados a empresa Lima, porém eles não possuem):
 
-### Solution Design: 
+### Solution Design 
 Documento de design de solução, é basicamente o modelo de sua implementação de análise. Ele define os requisitos de negócios identificados pelas partes interessadas em toda a organização e os converte em variáveis no Adobe Analytics, delegando padrões de dados, nomenclatura etc.
 
 **Obs:** Documento que auxilia os novos integrantes do time a identificar o que temos disponível no Adobe Analytics, padrões de dados, alocações de variáveis etc.
