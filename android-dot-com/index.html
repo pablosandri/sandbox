@@ -49,40 +49,6 @@
 // Send transaction data with a pageview if available
 // when the page loads. Otherwise, use an event when the transaction
 // data becomes available.
-dataLayer.push({
-  'ecommerce': {
-    'purchase': {
-      'actionField': {
-        'id': 'T12345',                         // Transaction ID. Required for purchases and refunds.
-        'affiliation': 'Online Store',
-        'revenue': '35.43',                     // Total transaction value (incl. tax and shipping)
-        'tax':'4.90',
-        'shipping': '5.99',
-        'coupon': 'SUMMER_SALE'
-      },
-      'products': [{                            // List of productFieldObjects.
-        'name': 'Triblend Android T-Shirt',     // Name or ID is required.
-        'id': '12345',
-        'price': '15.25',
-        'brand': 'Google',
-        'category': 'Apparel',
-        'variant': 'Gray',
-        'quantity': 1,
-        'coupon': ''                            // Optional fields may be omitted or set to empty string.
-       },
-       {
-        'name': 'Donut Friday Scented T-Shirt',
-        'id': '67890',
-        'price': '33.75',
-        'brand': 'Google',
-        'category': 'Apparel',
-        'variant': 'Black',
-        'quantity': 1
-       }]
-    }
-  }
-});
-</script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -111,8 +77,6 @@ dataLayer.push({
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
 /* The actual popup */
 .popup .popuptext {
     visibility: hidden;
@@ -445,17 +409,12 @@ dataLayer.push({
         </footer>
       </div>
     </div>
-    <a onclick="myPopup" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Add to Card</a>
+    <a onclick="#" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Add to Card</a>
     <span class="popuptext" id="myPopup">A Simple Popup!</span>
     <script src="../../material.min.js"></script>
-    <script>
-      // When the user clicks on div, open the popup
-      function mypopup(){
-          alert('sadsda');
-          var popup = document.getElementById("myPopup");
-          popup.classList.toggle("show");
-      }
-    </script>
+    $('#view-source').on('mousedown', function(){
+	    alert('reservado com sucesso');
+    })  
     
 
   </body>
