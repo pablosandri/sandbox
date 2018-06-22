@@ -209,6 +209,10 @@ body .demo-blog {
 .demo-blog .coffee-pic .mdl-card__media {
   background-image: url('images/coffee.jpg');
 }
+
+.demo-blog .coffee-pic-pablo .mdl-card__media {
+  background-image: url('https://memei-memei-development.apps.appcanvas.net/assets/images/home/bg-recomendacao.png');
+}
 .demo-blog .something-else .mdl-card__media {
   display: -webkit-box;
   display: -webkit-flex;
