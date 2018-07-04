@@ -1,0 +1,61 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
+<p><img src="https://pablosandri.github.io/sandbox/Serasa%20Empreendedor.jpg" alt="SerasaEmpreendedor"></p>
+<h1><a id="Serasa_Empreendedor__Activity_Map_2"></a>Serasa Empreendedor - Activity Map</h1>
+<p>Última atualização: 04/07/2018</p>
+<p>Em caso de dúvidas, entrar em contato com: <a href="mailto:pablo.sandri@experian.com">pablo.sandri@experian.com</a></p>
+<h1><a id="Objetivo_8"></a>Objetivo</h1>
+<p>Veja onde os visitantes estão interagindo com o seu site!</p>
+<p>Existe um plugin da Adobe chamado <code>Activity Map</code>, com ele conseguimos identificar onde os usuários estão interagindo no site.</p>
+<h1><a id="Tutorial_de_como_usar_14"></a>Tutorial de como usar.</h1>
+<h2><a id="Instalao_do_plugin_Activity_Map_16"></a>Instalação do plugin Activity Map</h2>
+<p>Entre no Adobe Analytics &gt; Tools &gt; Activity Map e instale a extensão.</p>
+<h2><a id="Aplicando_20"></a>Aplicando</h2>
+<ol>
+<li>Entre na página que gostaria de ver as interações clique no Plugin e faça o login.</li>
+</ol>
+<p>Ex:</p>
+<p><img src="https://pablosandri.github.io/sandbox/Empreendedor/ActivityMap/ActivityMapLogin.png" alt="Login"></p>
+<ol start="2">
+<li>Após abrir a aba flutuante selecione a métrica <code>Cliques em links</code> ou qualquer uma presente no Adobe Analytics, selecione os segmentos que gostaria o período e tá feito o Danoninho.</li>
+</ol>
+<p><img src="https://pablosandri.github.io/sandbox/Empreendedor/ActivityMap/ActivityMap.png" alt="ActivityMap"></p>
+<ol start="3">
+<li>Agora podemos clicar nos box e ver quantidade de cliques interações e trafego dos visitantes.</li>
+</ol>
+<p>Obs: Conseguimos acompanhar também em real-time, aplicar seguimentos e usar metricas do Adobe. Porém a ferramenta possui algumas limitações dado que nosso ambiente é em angular, mas qualquer dúvida estou à disposição.</p>
+<p>Obrigado e abs. :D</p>
+<h1><a id="Objetivo_42"></a>Objetivo</h1>
+<p>Diante da dúvidas de muitos se a Syntax da Products Merchandising está correta, eu fiz um tutorial para ajudar na homologação.</p>
+<h1><a id="Overview_e_Descries_Tcnicas_46"></a>Overview e Descrições Técnicas</h1>
+<h2><a id="Instalao_do_Adobe_DebuggerNo_obrigatrio_48"></a>Instalação do Adobe Debugger(Não obrigatório)</h2>
+<p>Complete as etapas adequadas para o navegador desejado:</p>
+<blockquote>
+<p><a href="https://marketing.adobe.com/resources/help/pt_BR/sc/implement/debugger_firefox.html">Mozilla Firefox</a><br>
+<a href="https://marketing.adobe.com/resources/help/pt_BR/sc/implement/debugger_chrome.html">Google Chrome</a></p>
+</blockquote>
+<h1><a id="Implementao_55"></a>Implementação</h1>
+<h2><a id="Preparando_o_ambiente_57"></a>Preparando o ambiente</h2>
+<p>Primeiro vamos abrir uma página que contenha o <code>dtm</code>, para certificar que ele exista na página, vamos abrir a ferramenta do desenvolvedor(f12), vamos procurar a lib do dtm na aba console:</p>
+<p>Digite no console:</p>
+<pre><code class="language-javascript">s = <span class="hljs-keyword">new</span> AppMeasurement                      <span class="hljs-comment">//Declarando a lib AppMeasurement no escobo global</span>
+
+<span class="hljs-keyword">var</span> s_account=<span class="hljs-string">"itau.d2.sc.omtrdc.net"</span>       <span class="hljs-comment">//Declarando o Tracking Server</span>
+<span class="hljs-keyword">var</span> s=s_gi(<span class="hljs-string">'teste'</span>)             <span class="hljs-comment">//Declarando o Report Suite</span>
+</code></pre>
+<h2><a id="Envio_das_vriaveis_69"></a>Envio das váriaveis</h2>
+<p>Declare sua string da products no <code>s.products</code> conforme ilustrado abaixo:</p>
+<blockquote>
+<p>Obs: Caso queira enviar outras informações como event, prop e evar consulte essa <a href="">documentação</a></p>
+</blockquote>
+<pre><code class="language-javascript">s.products = <span class="hljs-string">'Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off'</span>
+
+s.tl()    <span class="hljs-comment">// Compila todas as variáveis definidas e envia para adobe</span>
+</code></pre>
+<p>Pronto, o disparo foi enviado para adobe.</p>
+<h2><a id="Homologao_82"></a>Homologação</h2>
+<p>Por fim se você estiver com o <em>adobe debugger</em> no favorito é só executar, ou execute o seguinte codigo no console.</p>
+<pre><code class="language-javascript">javascript:<span class="hljs-keyword">void</span>(<span class="hljs-built_in">window</span>.open(<span class="hljs-string">""</span>,<span class="hljs-string">"dp_debugger"</span>,<span class="hljs-string">"width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1"</span>).document.write(<span class="hljs-string">"&lt;script language='JavaScript' id=dbg src='https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js'&gt;&lt;/"</span>+<span class="hljs-string">"script&gt;"</span>));
+</code></pre>
+<p>Verifique se os valores foram atribuidos nos seus respectivos lugares, conforme print.</p>
+
+</body></html>
