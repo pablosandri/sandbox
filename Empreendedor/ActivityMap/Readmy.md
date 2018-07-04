@@ -1,4 +1,4 @@
-![CI&T](https://pablosandri.github.io/sandbox/ciandt.png)
+![SerasaEmpreendedor](https://pablosandri.github.io/sandbox/Serasa%20Empreendedor.jpg)
 
 # Serasa Empreendedor - Activity Map
 
@@ -20,32 +20,21 @@ Entre no Adobe Analytics > Tools > Activity Map e instale a extensão.
 
 ## Aplicando
 
-Entre na página que gostaria de ver as interações clique no Plugin e faça o login.
+1)  Entre na página que gostaria de ver as interações clique no Plugin e faça o login.
 
 Ex:
 
-![](https://pablosandri.github.io/sandbox/ciandt.png)
+![Login](https://pablosandri.github.io/sandbox/Empreendedor/ActivityMap/ActivityMapLogin.png)
 
-## Envio das váriaveis 
+2)	Após abrir a aba flutuante selecione a métrica `Cliques em links` ou qualquer uma presente no Adobe Analytics, selecione os segmentos que gostaria o período e tá feito o Danoninho.
 
-Declare sua string da products no `s.products` conforme ilustrado abaixo:
+![ActivityMap](https://pablosandri.github.io/sandbox/Empreendedor/ActivityMap/ActivityMap.png)
 
->	Obs: Caso queira enviar outras informações como event, prop e evar consulte essa [documentação]()
+3)	Agora podemos clicar nos box e ver quantidade de cliques interações e trafego dos visitantes.
 
-```javascript
-s.products = 'Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off'
 
-s.tl()    // Compila todas as variáveis definidas e envia para adobe
-```
-Pronto, o disparo foi enviado para adobe.
+Obs: Conseguimos acompanhar também em real-time, aplicar seguimentos e usar metricas do Adobe. Porém a ferramenta possui algumas limitações dado que nosso ambiente é em angular, mas qualquer dúvida estou à disposição.
 
-## Homologação
+Obrigado e abs. :D
 
-Por fim se você estiver com o *adobe debugger* no favorito é só executar, ou execute o seguinte codigo no console.
-
-```javascript
-javascript:void(window.open("","dp_debugger","width=600,height=600,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language='JavaScript' id=dbg src='https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js'></"+"script>"));
-```
-
-Verifique se os valores foram atribuidos nos seus respectivos lugares, conforme print.
 
