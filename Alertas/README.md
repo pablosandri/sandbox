@@ -17,3 +17,5 @@ Este documento tem como objetivo realizar o diagnóstico da implementação do A
 | IDValidation:UserValidado   | Change by 100%  |   Hourly   | ```Pablo Sandri```, ```Luiz Oliveira```, ```Carolina Matsumoto```, ```Caio```, ```+5511959786991```. |
 | Cadastro:Inicio  |Change by 100% |  Hourly  | ```Pablo Sandri```, ```Barbara ```, ```Marcelo```, ```Mariana```, ```Thais```, ```Renata```.|
 | Cadastro:DefinicaoSenha   | Change by 100%  | Hourly |```Pablo Sandri```, ```Marcelo```, ```Renata```.|
+| Credito:Lead   | Change by 100%  | Daily |```Pablo```, ```Tiago```, ```Diego```, ```Paulo```.|
+| Recomenda:Purchase  | Change by 100%  | Daily |```Pablo```, ```Will```, ```Joao```.|
