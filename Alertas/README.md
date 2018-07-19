@@ -1,12 +1,12 @@
 ![Serasa Empreendedor](https://pablosandri.github.io/sandbox/empreendedor.jpg)
 
-# Serasa Empreendedor - Digital Analytics
+# Serasa Empreendedor - Digital Analytics - Relatório Terrorista
 
-Última atualização: 15/05/2018
+Última atualização: 19/07/2018
 
 # Objetivo
 
-Este documento tem como objetivo realizar o diagnóstico da implementação do Adobe Analytics no ambiente [Serasa Empreendedor](https://www.serasaempreendedor.com.br/).
+Este documento tem como objetivo mapear os Alertas dos KPIs no ambiente [Serasa Empreendedor](https://www.serasaempreendedor.com.br/).
 
 
 # Alertas Configurados
