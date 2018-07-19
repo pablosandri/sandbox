@@ -19,3 +19,6 @@ Este documento tem como objetivo realizar o diagnóstico da implementação do A
 | Cadastro:DefinicaoSenha   | Change by 100%  | Hourly |```Pablo Sandri```, ```Marcelo```, ```Renata```.|
 | Credito:Lead   | Change by 100%  | Daily |```Pablo```, ```Tiago```, ```Diego```, ```Paulo```.|
 | Recomenda:Purchase  | Change by 100%  | Daily |```Pablo```, ```Will```, ```Joao```.|
+| Consulta Score  | Change by 400%  | Hourly |```Pablo```, ```Will```, ```Joao```.|
+| Error:ServeicoDePagamentoIndisponivel  | Change by 100%  | Hourly |```Pablo```, ```Will```, ```Joao```.|
+
