@@ -4,6 +4,20 @@ Olá Pessoal!
 
 Apresentação...
 
+### Antes de Novembro
+
+#### Adobe Analytics
+
+Descoberta e nova arquitetura de tagueamento.
+
+#### Adobe Target
+
+Implementação e primeiras personalizações.
+
+#### Eloqua
+
+Automação das principais réguas. (mvp)
+
 ### Analytics Novembro
 
 #### Eloqua
