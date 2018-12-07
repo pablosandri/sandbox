@@ -2,7 +2,7 @@
 
 Olá Pessoal!
 
-Eu e o Dani vamos falar um pouco da analytics aqui
+Apresentação...
 
 ### Analytics Novembro
 
