@@ -24,7 +24,7 @@ Automação das principais réguas. (mvp)
 
 Em Novembro entregamos um tagueamento do Eloqua que resultou na automação das principais réguas de ```E-mail Mkt```, deu um puta trabalho mas ficou do *crl*.
 
-Basicamente desenvolvemos um ```script``` que envia as informações do site para o Eloqua real-time. Com essas dados possibilitou criar as seguintes réguas:
+Basicamente desenvolvemos um ```script``` que envia as informações do site para o Eloqua em real-time. Com essas dados possibilitou criar as seguintes réguas:
 
   - Recomendação
     - Abandono de LP
