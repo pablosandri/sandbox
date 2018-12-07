@@ -32,7 +32,7 @@ Tagueamento do Saúde Financeira Assinatura.
 
 #### Pastel
 
-Implementação da experiência target ```Simulação de Crédito Automagica```. Um ```script``` que interpreta a origem do usuário, verifica a campanha e no caso do ```pré-aprovado``` conclui a simulação de crédito automagicamente.
+Implementação da experiência target ```Simulação de Crédito Automagica```. Um ```script``` que interpreta a origem do usuário, verifica a campanha, e no caso do ```pré-aprovado```, conclui a simulação de crédito automagicamente.
     
     
     
