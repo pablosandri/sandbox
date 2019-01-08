@@ -1,72 +1,36 @@
-## SE - Analytics
+Olá Rafael, boa noite. Tudo bem?
 
-Olá Pessoal!
+Desculpa a demora, como o William disse estava de ferias.
 
-Apresentação...
+Mas legal análisei a implementação do ```GTM``` e ```data attributes``` e aparentemente está correta! Não encontrei a msg de erro no console. Podemos marcar uma video conferencia para sanar todas as dúvidas?
 
-### Antes de Novembro
+Também reparei um codigo dando push na camada de dados com um ```debugger```, podemos conversar para eu coseguir entender o proposito da implementação?
 
-#### Adobe Analytics
-
-Descoberta e nova arquitetura de tagueamento.
-
-#### Adobe Target
-
-Implementação e primeiras personalizações.
-
-#### Eloqua
-
-Automação das principais réguas. (mvp)
-
-### Analytics Novembro
-
-#### Eloqua
-
-Em Novembro entregamos um tagueamento do Eloqua que resultou na automação das principais réguas de ```E-mail Mkt```, deu um puta trabalho mas ficou do *crl*.
-
-Basicamente desenvolvemos um ```script``` que envia as informações do site para o Eloqua em real-time. Com essas dados possibilitou criar as seguintes réguas:
-
-  - Recomendação
-    - Abandono de LP
-    - Consulta
-    - Abando de carrinho
-    - e outras
-  - Saúde Financeira(Avulso e Assinatura)
-    - Abandono de LP
-    - Auto Consulta 
-    - Abandono de Carrinho
-  - Marketing
-    - Cadastro
-    - Resgate def Token
-    - Resgate def Senha
-    
-#### Adobe Analytics
-
-Tagueamento do Saúde Financeira Assinatura.
-
-#### Pastel
-
-Implementação da experiência target ```Simulação de Crédito Automagica```. Um ```script``` que interpreta a origem do usuário, verifica a campanha, e no caso do ```pré-aprovado```, conclui a simulação de crédito automagicamente.
-    
-    
-    
-### Analytics Dezembro
-
-#### Adobe Analytics - Data Source
-
-Data source é uma forma de enriquecer os dados no Analytics. Basicamente fazer um join dos dados existentes com outras bases. Seguem as possibilidades:
-
-  - Status orders O2C
-  - Resultados de NPS
-  - Dados perdidos do analytics
-    - Cadastros
-    - Score
-    - Persona
-    - Trilha
-
-#### Adobe Target - Setup
-
-Uma melhoria na implementação do adobe target para corrigir os dois principais problemas no adobe target.
-
-  - Piscada
-  - Delay Score Home
+Segue o codigo:
+``` javascript
+	window.dataLayer = window.dataLayer || [];
+	var listProducts = GetProductsSku();
+	debugger;
+	window.dataLayer.push({
+		'products': [listProducts]
+	}); 
+	
+	function GetProductsSku(){
+	
+		var list = document.querySelectorAll('.gtm-link-event');
+		var listToArray = Array.prototype.slice.call(list);
+		var data = [];
+		var product = '';
+		debugger;
+		for(var i = 0; i < listToArray.length; i++)
+		{
+			product = listToArray[i].dataset;
+			data.push({'category': product.gtmEventCategory, 'product': product.gtmEventAction, 'plu': product.gtmEventLabel });
+		}
+		
+		return data;
+	}
+  ```
+  
+  Qualquer dúvida estou à disposição.
+  Abraços
