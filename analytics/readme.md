@@ -1,12 +1,13 @@
 Olá Rafael, boa noite. Tudo bem?
 
-Desculpa a demora, como o William disse estava de ferias.
+Desculpe a demora, conforme o William disse estava de férias.
 
-Mas legal análisei a implementação do ```GTM``` e ```data attributes``` e aparentemente está correta! Não encontrei a msg de erro no console. Podemos marcar uma video conferencia para sanar todas as dúvidas?
+Mas legal, analisei a implementação do ```GTM``` e ```data attributes```, aparentemente está correta! Não encontrei a msg de erro no console. Podemos marcar uma videoconferência para sanar todas as dúvidas?
 
-Também reparei um codigo dando push na camada de dados com um ```debugger```, podemos conversar para eu coseguir entender o proposito da implementação?
+Também reparei um código dando push na camada de dados com um debugger, podemos conversar para eu conseguir entender o propósito da implementação?
 
-Segue o codigo:
+Segue o código:
+
 ``` javascript
 	window.dataLayer = window.dataLayer || [];
 	var listProducts = GetProductsSku();
