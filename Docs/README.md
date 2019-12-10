@@ -1,6 +1,5 @@
-![Serasa Empreendedor](https://pablosandri.github.io/sandbox/empreendedor.jpg)
 
-# Serasa Empreendedor - Digital Analytics
+#- Digital Analytics
 
 Última atualização: 15/05/2018
 
