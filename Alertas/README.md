@@ -1,12 +1,11 @@
-![Serasa Empreendedor](https://pablosandri.github.io/sandbox/empreendedor.jpg)
 
-# Serasa Empreendedor - Digital Analytics - Relatório Terrorista
+#- Digital Analytics - Relatório Terrorista
 
 Última atualização: 19/07/2018
 
 # Objetivo
 
-Este documento tem como objetivo mapear os Alertas dos KPIs no ambiente [Serasa Empreendedor](https://www.serasaempreendedor.com.br/).
+Este documento tem como objetivo mapear os Alertas dos KPIs no ambiente 
 
 
 # Alertas Configurados
