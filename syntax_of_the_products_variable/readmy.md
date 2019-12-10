@@ -1,10 +1,10 @@
-![CI&T](https://pablosandri.github.io/sandbox/ciandt.png)
 
-# CI&T - Syntax of the Products Variable 
+
+# - Syntax of the Products Variable 
 
 Última atualização: 19/02/2018
 
-Em caso de dúvidas, entrar em contato com: [psandri@ciandt.com](mailto:psandri@ciandt.com)
+Em caso de dúvidas, entrar em contato com:
 
 # Objetivo
 
