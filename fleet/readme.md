@@ -1,10 +1,7 @@
-![CI&T](https://pablosandri.github.io/sandbox/ciandt.png)
-
-# CI&T - Fleet
 
 Última atualização: 28/02/2018
 
-Em caso de dúvidas, entrar em contato com: [psandri@ciandt.com](mailto:psandri@ciandt.com)
+Em caso de dúvidas, entrar em contato com: 
 
 # Objetivo
 
