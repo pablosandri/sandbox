@@ -14,7 +14,7 @@ Este documento tem como objetivo, mapear os logs **third party**, do site [TOTVS
 |  Category |  Tools | OBS  |
 |---|---|---|
 | Tag Manager  | Google Tag Manager  |   |
-| Analytics | Google Analytics  | Tags Implementadas: ```pageview```, ```scroll```, ```event```. Alguns eventos de conversão estão duplicados, outros não especificado e outros com informações redundantes. |
+| Analytics | Google Analytics  | Tags Implementadas: ```pageview```, ```scroll```, ```event```. Alguns eventos de conversão estão duplicados, outros não especificados e outros com informações redundantes. |
 | Teste AB | ```null``` |  |
 | Mídia | Google ads, Linkedin, Facebook, Bing |  |
 | Affiliates | Criteo, Taboola, widgetapi e outros |  |
