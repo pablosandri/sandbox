@@ -15,7 +15,7 @@ Este documento tem como objetivo, mapear os logs **third party**, do site [TOTVS
 |---|---|---|
 | Tag Manager  | Google Tag Manager  | Implementado corretamente conforme orientação da documentação. |
 | Analytics | Google Analytics  | Tags Implementadas: ```pageview```, ```scroll```, ```event```. Problemas encontrados: As Tags de ```event``` estão mal estruturadas, redundantes e com informações não especificadas. |
-| Teste AB | ```null``` |  |
+| Teste AB | ```null``` | Não encontramos nenhuma ferramenta |
 | Mídia | Google ads, Linkedin, Facebook, Bing |  |
 | Affiliates | Criteo, Taboola, widgetapi e outros |  |
 
