@@ -18,3 +18,5 @@ Este documento tem como objetivo, mapear os logs **third party**, do site [TOTVS
 | Teste AB | ```null``` |  |
 | Mídia | Google ads, Linkedin, Facebook, Bing |  |
 | Affiliates | Criteo, Taboola, widgetapi e outros |  |
+
+/ O portal [cadastro-totvs-antecipa](https://techfin.totvs.com/portal/p/10097/cadastro-totvs-antecipa), não tem nenhuma ferramenta implementada, ou seja, não é possivel implementar 
