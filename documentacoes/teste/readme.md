@@ -1,6 +1,4 @@
-![CI&T](https://pablosandri.github.io/sandbox/ciandt.png)
 
-# CI&T - Goal 
 
 Última atualização: 19/12/2017
 
