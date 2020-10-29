@@ -1,4 +1,4 @@
-# Digital Stack - Análise TOTVS Techfin
+# Digital Stack - 
 
 Última atualização: 17/10/2020
 
@@ -6,7 +6,7 @@ Em caso de dúvidas, entrar em contato com: pablosandri@outlook.com
 
 ## Objetivo
 
-Este documento tem como objetivo, mapear os logs **third party**, do site [TOTVS Techfin](https://www.totvs.com/techfin/").
+Este documento tem como objetivo, mapear os logs **third party**, do site 
 
 
 ### Ferramentas Third party
