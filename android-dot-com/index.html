@@ -26,6 +26,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-M3Z64B3');</script>
 <!-- End Google Tag Manager -->
     
+    <script>
+var purchase = function(){
+  // Send transaction data with a pageview if available
+  // when the page loads. Otherwise, use an event when the transaction
+  // data becomes available.
+  dataLayer.push({
+    'event':'Purchase',
+    'ecommerce': {
+      'purchase': {
+        'actionField': {
+          'id': 'T12345',                         // Transaction ID. Required for purchases and refunds.
+          'affiliation': 'Online Store',
+          'revenue': '35.43',                     // Total transaction value (incl. tax and shipping)
+          'tax':'4.90',
+          'shipping': '5.99',
+          'coupon': 'SUMMER_SALE'
+        },
+        'products': [{                            // List of productFieldObjects.
+          'name': 'Android T-Shirt',     // Name or ID is required.
+          'id': '12345',
+          'price': '15.25',
+          'brand': 'Google',
+          'category': 'Apparel',
+          'variant': 'Gray',
+          'quantity': 1,
+          'coupon': ''                            // Optional fields may be omitted or set to empty string.
+         }]
+      }
+    }
+  });
+}  
+</script>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
@@ -333,6 +366,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </footer>
       </div>
     </div>
-    <a onclick="#" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast" data-launch-site-section="Android" data-launch-label="AddtoCard" data-launch-section="Card" >Add to Card</a>
+    <a onclick="Purchase()" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast" data-launch-site-section="Android" data-launch-label="AddtoCard" data-launch-section="Card" >Add to Card</a>
   </body>
 </html>
